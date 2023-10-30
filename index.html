@@ -2,23 +2,31 @@
 <head>
     <title>Food Buzz</title>
     <link href="./style/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <div class="root">
 
         <header class="header-container">
+            
             <div class="logo-container">
                 <img src="images/logo.jpg" class="logo" alt="logo"></img>
             </div>
+
             <div class="tab-container">
                 <div class="tab">Home</div>
                 <div class="tab">Blogs</div>
                 <div class="tab">sign-in</div>
                 <div class="hr-sp"></div>
             </div>
+
         </header>
 
-        <section class="discription-image-container"> 
+        <section class="discription-image-container">
                 <div class="search-box-container">
                     <input class="search-box" placeholder="Enter Your Location"/>
                     <button class="search-button">Find Food</button>
@@ -26,12 +34,60 @@
         </section>
 
         <section class="discription-container">
-            <div class="discription"></div>
+            <div class="discription">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="./images/ci-14.jpg" alt="Rajasthani Foods" style="height: 100%; width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Rajasthani Foods</h3>
+                                <p>awesome foods</p>
+                            </div>
+                        </div>
+                    
+                        <div class="item">
+                            <img src="./images/ci-14.jpg" alt="South-Indian Foods" style="height: 100%; width:100%;">
+                            <div class="carousel-caption">
+                                <h3>South-Indian Foods</h3>
+                                <p>awesome foods</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="./images/ci-14.jpg" alt="Kokani Foods" style="height: 100%; width:100%;">
+                            <div class="carousel-caption">
+                                <h3>Kokani Foods</h3>
+                                <p>awesome foods</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>                    
+                    </a>
+
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </section>
 
         <section class="filter-container">
 
-            <div class="filter"><h3>Whats Your Mood !</h3></div>
+            <!-- <div class="filter"><h3>Whats Your Mood !</h3></div> -->
 
             <div class="filter">
                 <select type="text" list="category" class="box">
@@ -119,7 +175,7 @@
                         <div class="card-content" id="content-5">
                             <div class="content line-1" > bla bla</div>
                             <div class="content line-2"> bla bla</div>
-                        </div>div>
+                        </div>
                     </div>
 
                     <div class="card card6">
@@ -138,7 +194,15 @@
         </section>
 
         <footer class="footer-container">
+            <div class="footer-item">
+                
+            </div>
+            <div class="footer-item">
 
+            </div>
+            <div class="footer-item">
+
+            </div>
         </footer>
 
     </div>
