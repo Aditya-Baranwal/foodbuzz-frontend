@@ -227,6 +227,15 @@
     color: blue;
 }
 
+
+.footer-title-2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    margin: 3px 3px 3px 3px;
+    color: red;
+}
+
 .footer-content-1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
